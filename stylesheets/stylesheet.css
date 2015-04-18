@@ -1,0 +1,44 @@
+.top_button {
+  border: 1px black solid;
+  padding: 10px;
+  font-style: none;
+  background-color: white;
+  margin: 30px;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: Verdana;
+}
+body {
+  background-color: beige;
+}
+#button {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  font-family: Verdana;
+  margin: 30px;
+}
+img {
+  height: 30%;
+  width: 30%;
+  padding-left: 150px;
+}
+#welcome {
+  font-family: Verdana;
+  width: 30%;
+  height: 30%;
+  border: 1px black solid;
+  padding-top: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 15%;
+  background-color: white;
+  float: right;
+  margin-right: 300px;
+}
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 30%;
+}
