@@ -23,7 +23,8 @@ h1 {
 img {
   height: 30%;
   width: 30%;
-  padding-left: 150px;
+  left: 40%;
+  position: relative;
 }
 #welcome {
   font-family: Verdana;
@@ -31,7 +32,7 @@ img {
 }
 footer {
   position: fixed;
-  bottom:10px;
+  top: 90%;
   left: 30%;
 }
 ul {
@@ -41,4 +42,10 @@ ul {
 #date {
   text-align: center;
   font-family: Verdana;
+}
+#blog_post {
+  position: absolute;
+  margin-bottom: 100px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
