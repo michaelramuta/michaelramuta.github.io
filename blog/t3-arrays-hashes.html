@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Michael Ramuta's Blog</title>
+      <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+    </head>
+      <p id="button">
+      <span class="top_button"><a href="../index.html">About Me</a></span>
+      <span class="top_button"><a href="blog_index.html">Blog</a></span>
+      <span class="top_button"><a href="mailto:michaelramuta@gmail.com">Contact</a></span>
+      <span class="top_button"><a href="#">Projects</a></span>
+      <span class="top_button"><a href="../resume.pdf">Resume</a></span>
+    </p>
+    <body>
+      <h1>Arrays and Hashes</h1>
+      <h4 id="date">April 25, 2015</h4>
+      <span id="blog_post">
+        <p>
+            This week, I've been learning a lot about the programming language Ruby. As part of this, I've learned the difference between arrays and hashes. Follow along to see what's the deal!
+      </p>
+      <p>
+        In order to use Ruby to it's full potential, you need to invoke the concepts of arrays or hashes. An array is simply a set of objects. We put an array in brackets, separated by commas. They look like this
+      </p>
+        <code> array1 = [object1, object2, object3]</code>
+<p>
+        We can call any object out of an array by simply calling the method <code>array.[position]</code> where position is the position of the object (starting at zero). For example, if we wanted to call the second object, we would use the code <code>array.[1]</code> which would return <code>object2</code>
+      </p>
+      <p>
+        These arrays can be manipulated and transformed, but the idea is that an array is a set of ordered objects. Objects can even be arrays themselves! They can also be empty arrays such as <code>array = []</code>
+      </p>
+      <p>
+        A hash is similar to an array, but a hash consists of ordered pairs, rather than just ordered objects. Each pair in a hash consists of a key and a value. We can use them like a set of coordinates, and (like an array) they are in a set order, that can be rearranged at will. Here is an example of a hash:
+      </p>
+      <p>
+        <code> hash1 = { "a" => 1, "b" => 2, "c" => 3}</code>
+      </p>
+      <p>
+        With a hash like this, we can call on one of the keys, and result in a value, such as if we call <code>hash1["a"]</code> we will return <code>1</code> and so on.
+      </p>
+      <p>
+        A hash is similar to an array, but instead of calling on an integer to determine what the value of an object in the array is, we call on a specific value to determine the value of an object in the hash.
+      </p>
+      <p>
+        So far, I've largely been using arrays in my programs that I've been producing, but I'm excited to begin using hashes as well to solve new problems!
+      </p>
+   </span>
+    </body>
+    <footer>
+    <p id="button">
+      <span class="top_button"><a href="mailto:michaelramuta@gmail.com">Contact</a></span>
+      <span class="top_button"><a href="#top">Return To Top</a></span>
+      <span class="top_button"><a href="../index.html">About Me</a></span>
+    </p>
+    </footer>
+  </html>
