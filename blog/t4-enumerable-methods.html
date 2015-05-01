@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Michael Ramuta's Blog</title>
+      <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+    </head>
+      <p id="button">
+      <span class="top_button"><a href="../index.html">About Me</a></span>
+      <span class="top_button"><a href="blog_index.html">Blog</a></span>
+      <span class="top_button"><a href="mailto:michaelramuta@gmail.com">Contact</a></span>
+      <span class="top_button"><a href="#">Projects</a></span>
+      <span class="top_button"><a href="../resume.pdf">Resume</a></span>
+    </p>
+    <body>
+      <h1>Enumerables: Mapping</h1>
+      <h4 id="date">May 1, 2015</h4>
+      <span id="blog_post">
+        <p>
+        Enumerable is a module that allows for some great methods such as sorting, group_by, and cycle, but today we'll be talking about the map method.
+      </p>
+      <p>
+        Map lets us modify a given array, and transform it in multiple ways. It essentially works like this:
+      </p>
+      <code>array = [1,2,3]<br>
+        array.map { |i| i }<br>
+        => [1,2,3]
+      </code>
+      <p>In simple English, this code means that it is taking an array and applying a map to it, where for for each object in the array (i), it will equal i. This simply results in the original array. Here is another example for some other things we can do.
+      </p>
+      <code>array = [1,2,3]<br>
+        array.map { |i| -i }<br>
+        => [-1,-2,-3]
+      </code>
+      <p>
+        As you can see, for a given object i, we map it to negative i. There are quite a few ways to transform arrays with the map enumerable method. Here are a few more.
+      </p>
+<code>
+      array = [1,2,3]<br>
+      array.map { |i| i*i }<br>
+      => [1,4,9]
+      </code>
+      <br>
+      <br>
+      <code>
+      array = [1,2,3]<br>
+      array.map { |i| "string" }<br>
+      => ["string","string","string"]
+      </code>
+      <p>
+        As you can see, changing up arrays with the map method can be pretty simple! Give it a try!
+      </p>
+   </span>
+    </body>
+    <footer>
+    <p id="button">
+      <span class="top_button"><a href="mailto:michaelramuta@gmail.com">Contact</a></span>
+      <span class="top_button"><a href="#top">Return To Top</a></span>
+      <span class="top_button"><a href="../index.html">About Me</a></span>
+    </p>
+    </footer>
+  </html>
