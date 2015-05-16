@@ -17,21 +17,31 @@
       <span id="blog_post">
         <p>
         Today I learned about the different types of variables (and what the scope is) in Ruby. Let's run through them now!
-        <li>
-          <ol>Global Variable: $example</ol>
-          <ol>Constant Variable: EXAMPLE</ol>
-          <ol>Class Variable: @@example</ol>
-          <ol>Instance Variable: @example</ol>
-          <ol>Local Variable: example</ol>
-        </li>
+        <ul>
+          <li>Global Variable: $example</li>
+          <li>Constant Variable: EXAMPLE</li>
+          <li>Class Variable: @@example</li>
+          <li>Instance Variable: @example</li>
+          <li>Local Variable: example</li>
+        </ul>
       </p>
       <p>
         The first is a Global Variable, which is specified by putting a "$" before the variable. This variable has the largest scope and can be accessed anywhere within Ruby. This is something that shouldn't really be changed, unless you want to change the way Ruby works.
       </p>
       <p>
-        Next, we have the constant variable, which is specified by putting it in ALL_CAPS. This has the second largest scope, and can be accessed...
+        Next, we have the constant variable, which is specified by putting it in ALL_CAPS. This has the second largest scope, and can be used anywhere within a class/module (if declared in one). It will have a global scope if declared outside of a class/module. When you try to change a constant, you will get a warning message.
       </p>
       <p>
+        We then have class variables, which are denoted with "@@" before the text. These can be accessed anywhere within a class, regardless of instance.
+      </p>
+      <p>
+        Next are instance variables, which are denoted with "@" before the text. These values are specific to the instance of the class they are found in. These can be changed throughout a class.
+      </p>
+      <p>
+        The variable with the smallest scope is the local variable. These are simply denoted with lower case text (and/or underscores). These variables can only be accessed within the loop/method in which they are defined.
+      </p>
+      <p>
+        Keep in mind that when using variables, it is best practice to use the smallest possible scope. That way, you won't be changing anything that you don't have to!
       </p>
    </span>
     </body>
