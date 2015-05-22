@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Michael Ramuta's Blog</title>
+      <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+    </head>
+      <p id="button">
+      <span class="top_button"><a href="../index.html">About Me</a></span>
+      <span class="top_button"><a href="blog_index.html">Blog</a></span>
+      <span class="top_button"><a href="mailto:michaelramuta@gmail.com">Contact</a></span>
+      <span class="top_button"><a href="#">Projects</a></span>
+      <span class="top_button"><a href="../resume.pdf">Resume</a></span>
+    </p>
+    <body>
+      <h1>Ruby and JavaScript: Looping</h1>
+      <h4 id="date">May 22, 2015</h4>
+      <span id="blog_post">
+        <p>
+        I'm pretty freshly new to JavaScript (in fact, it's been less than five days since I've read anything about it). So let's talk about it's similarities when making loops in the two types of languages. JavaScript doesn't seem to be quite as elegant, but I'm not having any trouble using it once I get the syntax right!
+      </p>
+      <p>
+        Let's first look at a simple endless loop where I count numbers from 1 to 10 in Ruby:
+        <code>
+          x = 1 <br>
+          loop {<br>
+          puts x<br>
+          x += 1<br>
+          break if x > 10<br>
+        }<br>
+        </code>
+      </p>
+      <p>
+        Not too tough, right? Ruby is great at being very readable. In plain English, we define x as 1, then loop a put statement of x, where we increase x by 1 every iteration until x is greater than 10. In JavaScript, we will write this using a "For Loop":
+        <code>
+          for (i = 1; i < 10; i++) { <br>
+          console.log(i);<br>
+        }<br>
+        </code>
+      </p>
+      <p>
+        While it is a lot more concise, I think it isn't as intuitive to see what is going on here. The "for" function takes a three arguments. The first lets us set a variable that we'll be using in the loop, the second is under what conditions should we continue to loop (as long as i is less than 10), and the third lets us define what happens to i in every loop. In this case, we use console.log(i) to print i to the console. We follow that statement with a semicolon to show that it is a statement (which is what we call instructions in JavaScript). All three of those arguments are actually optional. The variables can be defined elsewhere, the looping can continue forever, and the variables could never change.
+      </p>
+      <p>
+        JavaScript actually gives us quite a lot of control over repeating code! I'm excited to write more about JavaScript once I really get my feet wet!
+      </p>
+   </span>
+    </body>
+    <footer>
+    <p id="button">
+      <span class="top_button"><a href="mailto:michaelramuta@gmail.com">Contact</a></span>
+      <span class="top_button"><a href="#top">Return To Top</a></span>
+      <span class="top_button"><a href="../index.html">About Me</a></span>
+    </p>
+    </footer>
+  </html>
