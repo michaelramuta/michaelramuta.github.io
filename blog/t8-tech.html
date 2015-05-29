@@ -12,14 +12,26 @@
       <span class="top_button"><a href="../resume.pdf">Resume</a></span>
     </p>
     <body>
-      <h1><!-- insert title here --></h1>
-      <h4 id="date"><!-- insert date here --></h4>
+      <h1>Regular Expressions</h1>
+      <h4 id="date">May 29, 2015</h4>
       <span id="blog_post">
         <p>
-        <!-- paragraph 1 -->
+        Today, lets talk about regular expressions. Please note that I don't have any experience using these (although I'm sure I'll have a lot in the future), so let me know if there are some things I should clear up!
       </p>
       <p>
-        <!-- paragraph 2 -->
+        Regular expressions allow users to efficiently find patterns in large sets of data. It can be used in a variety of languages, such as JavaScript, Ruby, Python, C++, and loads of others.
+      </p>
+      <p>
+        In order to use regular expressions, you need to construct the pattern you'll be searching for. While you could simply search for the string "where is my tie" and get results, imagine if you wanted to include some variations! That's where you need to know some of the operations in regular expressions.
+      </p>
+      <p>
+        One handy operation is the "or" operation. You can signify that with a vertical line. So now we can change our search to "where is my (tie|tye)" to include that possible spelling error.
+      </p>
+      <p>
+        Another operation is the ?, which additionally searches for the same string but without the character before the ?. For example, if we sometimes spelled "where" without the last "e", we could search for "where? is my (tie|tye)" to compensate for that. If we sometimes hold down the "s" key for too long, we could also search for "where? is+ my (tie|tye)" which would allow for one or more repeats of the character before the +.
+      </p>
+      <p>
+        These are just a few ways that we can creatively construct a search string using regular expressions. I'm excited to begin using this when the on campus section of Dev Bootcamp begins!
       </p>
    </span>
     </body>
