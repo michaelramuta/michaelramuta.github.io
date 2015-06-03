@@ -1,51 +1,45 @@
-.top_button {
-  border: 1px black solid;
-  padding: 10px;
-  font-style: none;
-  background-color: white;
-  margin: 30px;
+#header {
   text-align: center;
-  font-size: 1.5em;
-  font-family: Verdana;
+  padding: 5px;
 }
+
+#left-side {
+  line-height: 60px;
+  width: 100px;
+  float: left;
+  background-color: #29234A;
+  padding: 30px;
+  height: 300px;
+}
+#main-section {
+  width: 850px;
+  background-color: #4C4769;
+  padding: 30px;
+  margin-left: 160px;
+  height: 100%;
+}
+
+
+#footer {
+  text-align: center;
+  padding: 5px;
+  clear: both;
+}
+
 body {
-  background-color: beige;
-  font-family: Verdana;
+  background-color: #36324F;
+  font-family: helvetica;
+  color: #100B30;
 }
-#button {
-  text-align: center;
+span > a{
+  font: bold;
+  text-decoration: none;
+  color: white;
+  font-size: 115%;
 }
-h1 {
-  text-align: center;
-  font-family: Verdana;
-  margin: 30px;
-}
-img {
-  height: 30%;
-  width: 30%;
-  left: 40%;
-  position: relative;
-}
-#welcome {
-  font-family: Verdana;
-  text-align: center;
-}
-footer {
-  position: fixed;
-  top: 90%;
-  left: 30%;
-}
-ul {
-  position: relative;
-  left: 30%;
-}
-#date {
-  text-align: center;
-  font-family: Verdana;
-}
-#blog_post {
-  position: absolute;
-  margin-bottom: 100px;
-  margin-right: 10px;
-  margin-left: 10px;
+li > a{
+  font: bold;
+  text-decoration: none;
+  color: #100B30;
+  font-size: 115%;
 }
