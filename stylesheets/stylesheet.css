@@ -1,6 +1,9 @@
 #header {
   text-align: center;
   padding: 5px;
+  color: #DFECE6;
+  font-size: 120%;
+  text-decoration: none;
 }
 
 #left-side {
@@ -8,12 +11,12 @@
   height: 300px;
   width: 100px;
   float: left;
-  background-color: #29234A;
+  background-color: #3CA2A2;
   padding: 30px;
 }
 #main-section {
   width: 1000px;
-  background-color: #4C4769;
+  background-color: #92C7A3;
   height: 300px;
   padding: 30px;
 }
@@ -22,6 +25,7 @@
   text-align: center;
   padding: 5px;
   clear: both;
+  color: #DFECE6;
 }
 
 img {
@@ -38,14 +42,14 @@ img {
 }
 
 body {
-  background-color: #36324F;
+  background-color: #215A6D;
   font-family: helvetica;
-  color: #100B30;
+  color: #2D2D29;
 }
 
 a {
   font: bold;
   text-decoration: none;
-  color: white;
+  color: #DFECE6;
   font-size: 115%;
 }

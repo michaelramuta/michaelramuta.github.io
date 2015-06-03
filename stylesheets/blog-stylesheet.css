@@ -1,19 +1,21 @@
 #header {
   text-align: center;
   padding: 5px;
+  color: #DFECE6;
+  font-size: 120%;
 }
 
 #left-side {
   line-height: 60px;
   width: 100px;
   float: left;
-  background-color: #29234A;
+  background-color: #3CA2A2;
   padding: 30px;
   height: 300px;
 }
 #main-section {
   width: 850px;
-  background-color: #4C4769;
+  background-color: #92C7A3;
   padding: 30px;
   margin-left: 160px;
   height: 100%;
@@ -24,22 +26,29 @@
   text-align: center;
   padding: 5px;
   clear: both;
+  color: #DFECE6;
 }
 
 body {
-  background-color: #36324F;
+  background-color: #215A6D;
   font-family: helvetica;
-  color: #100B30;
+  color: #2D2D29;
+
 }
 span > a{
   font: bold;
   text-decoration: none;
-  color: white;
+  color: #DFECE6;
   font-size: 115%;
 }
 li > a{
   font: bold;
   text-decoration: none;
-  color: #100B30;
+  color: #2D2D29;
   font-size: 115%;
+}
+
+h1 > a{
+  text-decoration: none;
+  color: #DFECE6;
 }
